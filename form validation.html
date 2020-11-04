@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container"><br>
+		<h1 class="text-success text-center"> JavaScript Form Validation </h1><br>
+		<div class="col-lg-8 m-auto d-block">
+
+			<form action="#" onsubmit="return validation()" class="bg-light">
+
+			<div class="form-group">
+					<label> Username: </label>
+					<input type="text" name="user" class="form-control" id="user" autocomplete="off">
+
+					<span id="username" class="text-danger font-weight-bold"></span>
+
+		 	</div>
+
+		 		<br>
+
+		 	<div class="form-grp">
+					<label> Password: </label>
+					<input type="text" name="pass" class="form-control" id="pass" autocomplete="off">
+
+					<span id="passwords" class="text-danger font-weight-bold"></span>
+					
+		 	</div>
+
+		 		<br>
+
+		 	<div class="form-grp">
+					<label> Confirm Password: </label>
+					<input type="text" name="conpass" class="form-control" id="conpass" autocomplete="off">
+
+					<span id="confirmpass" class="text-danger font-weight-bold"></span>
+					
+		 	</div>
+
+		 		<br>
+
+		 	<div class="form-grp">
+					<label> Mobile Number: </label>
+					<input type="text" name="mobile" class="form-control" id="MobileNumber" autocomplete="off">
+
+					<span id="mobileno" class="text-danger font-weight-bold"></span>
+					
+		 	</div>
+
+		 		<br>
+
+		 	<div class="form-grp">
+					<label> Email: </label>
+					<input type="text" name="email" class="form-control" id="emails" autocomplete="off">
+
+					<span id="emailids" class="text-danger font-weight-bold"></span>
+					
+		 	</div>
+
+		 		<br>
+
+		 	<input type="submit" name="submit" value="submit" class="btn btn-success">
+
+		 	</form>
+
+		 </div>
+
+<script src="validation.js">
+	
+</script>
+</body>
+</html>
